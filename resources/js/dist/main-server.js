@@ -49,15 +49,15 @@ __webpack_require__.r(__webpack_exports__);
       default: 0
     },
     treactionUuid: {
-      type: text,
+      type: String,
       default: ""
     },
     treactionApikey: {
-      type: text,
+      type: String,
       default: ""
     },
     treactionAccountNumber: {
-      type: text,
+      type: String,
       default: ""
     }
   },
