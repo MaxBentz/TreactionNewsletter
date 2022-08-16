@@ -3,6 +3,7 @@
 namespace TreactionNewsletter\Providers;
 
 use TreactionNewsletter\Components\PluginConfig;
+use Plenty\Modules\Webshop\Template\Providers\TemplateServiceProvider;
 use Plenty\Plugin\Events\Dispatcher;
 use Plenty\Plugin\ServiceProvider;
 use Plenty\Plugin\Templates\Twig;
