@@ -1,0 +1,28 @@
+{
+  "formatVersion": 1,
+  "menu": {
+    "Config.TreactionNewsletterInputConfigTab": {
+      "label": "Config.TreactionNewsletterInputConfigTab",
+      "formFields": {
+        "uuid": {
+          "type": "inputTextArea",
+          "required": false,
+          "label": "Config.uuidLabel",
+          "options": {}
+        },
+        "apikey": {
+          "type": "inputTextArea",
+          "required": false,
+          "label": "Config.apikeyLabel",
+          "options": {}
+        },
+        "account_number": {
+          "type": "inputTextArea",
+          "required": false,
+          "label": "Config.account_numberLabel",
+          "options": {}
+        }
+      }
+    }
+  }
+}

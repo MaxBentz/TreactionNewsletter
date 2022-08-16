@@ -1,0 +1,22 @@
+{
+  "serviceProvider"   : "TreactionNewsletter\\Providers\\TreactionNewsletterServiceProvider",
+  "version"           : "1.2.4",
+  "name"              : "TreactionNewsletter",
+  "description"       : "Treaction Newsletter Webhook for Ceres. Dieses Plugin überschreibt die Newsletter-Komponente des PlentyShops. Die Priorität des Plugins muss größer sein, als die Priorität von PlentyShop LTS und des Templates, aber geringer als IO.",
+  "author"            : "MaxBentz @ BW-Shop",
+  "license"           : "Copyright by Treaction AG",
+  "pluginIcon"        : "icon_plugin_xs.png",
+  "price"             : 0,
+  "shortDescription"  : {"de": "Treaction Newsletter Webhook for Ceres. ","en": "Treaction Newsletter Webhook for Ceres."},
+  "authorIcon"        : "icon_author_xs.png",
+  "email"             : "Max.Bentz@Bundeswehr-und-mehr.de",
+  "phone"             : "+49 3877 561 171",
+  "categories"        : ["3527"],
+  "keywords"          : ["treaction", "plugins", "layout", "widget"],
+  "type"              : "general",
+  "require"           : ["Ceres", "IO"],
+  "namespace"         : "TreactionNewsletter",
+  "platform": {
+    "php": ">=7.3 <8.1"
+  }
+}
