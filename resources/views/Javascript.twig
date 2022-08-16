@@ -1,0 +1,7 @@
+{% set minSuffix = '.min' %}
+{% if ceresConfig.log.performanceLevel  == 'development' %}
+    {% set minSuffix = '' %}
+{% endif %}
+
+<!-- SSR:entry({{ ssr_entry('TreactionNewsletter', 'resources/js/dist/main-server' ~ minSuffix ~ '.js') }}) -->
+<script src="{{ plugin_path('TreactionNewsletter') }}/js/dist/main-client{{ minSuffix }}.js?v={{ buildHash }}"></script>
