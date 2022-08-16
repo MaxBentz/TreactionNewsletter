@@ -44,15 +44,15 @@ __webpack_require__.r(__webpack_exports__);
       type: Number,
       default: 0
     },
-    uuid: {
+    treactionUuid: {
       type: text,
       default: ""
     },
-    apikey: {
+    treactionApikey: {
       type: text,
       default: ""
     },
-    accountNumber: {
+    treactionAccountNumber: {
       type: text,
       default: ""
     }

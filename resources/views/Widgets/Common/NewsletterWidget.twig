@@ -30,7 +30,7 @@
             :show-privacy-policy-checkbox="{{ showPrivacyPolicyCheckbox }}"
             :email-folder="{% if emailFolder | length > 0 %} {{ emailFolder | json_encode }} {% else %} 0 {% endif %}"
             :button-size="{{ buttonSize | json_encode }}"
-            :account-number="{{ account_number | json_encode }}" :apikey="{{ apikey | json_encode }}" :uuid="{{ uuid | json_encode }}">
+            :treaction-account-number="{{ account_number | json_encode }}" :treaction-apikey="{{ apikey | json_encode }}" :treaction-uuid="{{ uuid | json_encode }}">
         </treaction-newsletter-input>
     </div>
 </div>
